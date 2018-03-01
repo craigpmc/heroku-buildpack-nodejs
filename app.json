@@ -1,0 +1,20 @@
+{
+  "name": "heroku-buildpack-nodejs",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejsv83"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
